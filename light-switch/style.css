@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.backgroundColorSwitch {
+  background-color: rgb(46, 46, 46);
+}
+.buttonSwitch {
+  background-color: blanchedalmond;
+  border: 0.25rem solid snow;
+}
+
+body {
+  margin: 0;
+  background-color: snow;
+  transition: 1s ease-in background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: snow;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: larger;
+  border: 0.25rem solid gray;
+  border-radius: 0.5rem;
+}
