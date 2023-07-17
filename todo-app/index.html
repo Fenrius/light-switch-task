@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do</title>
+</head>
+
+<body>
+    <header>
+        <h1>ToDo-App</h1>
+    </header>
+    <main>
+        <div>
+            <form id="filters">
+                <input type="radio" id="radioAll" name="filter"><label for="radioAll">All</label>
+                <input type="radio" id="radioOpen" name="filter"><label for="radioOpen">Open</label>
+                <input type="radio" id="radioDone" name="filter"><label for="radioDone">Done</label>
+            </form>
+            <button id="removeTodos" class="removeBtn">Remove done Todos</button><br>
+
+            <input type="text" id="todoEnter"><button id="addBtn" class="addBtn">Add</button>
+            <ul id="todoList">
+
+            </ul>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
