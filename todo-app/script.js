@@ -75,7 +75,11 @@ function updateTodo(event) {
 
 function outpoutArr() {
   const todoArrOut = JSON.parse(localStorage.getItem("todoArr"));
-  todos = todoArrOut;
+  if (todoArrOut !== null) {
+    todos = todoArrOut;
+  } else {
+    return;
+  }
 }
 
 function removeTodos() {
